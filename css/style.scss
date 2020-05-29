@@ -1,0 +1,10 @@
+@import "compass";
+
+.some-section {
+  @include clearfix;
+}
+$keyColor: blue;
+
+h1 {
+    color: $keyColor;
+}
